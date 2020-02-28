@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGameKata", "BowlingGameKata\BowlingGameKata.csproj", "{D9FBBC19-7B1B-4EE6-9915-86C7EAF11048}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingGames.Tests", "BowlingGames.Tests\BowlingGames.Tests.csproj", "{F4011BCA-1C95-4041-A26A-4CF68408781B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D29EC7F9-EE81-49F4-BFD4-586B392C3F67}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9FBBC19-7B1B-4EE6-9915-86C7EAF11048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FBBC19-7B1B-4EE6-9915-86C7EAF11048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FBBC19-7B1B-4EE6-9915-86C7EAF11048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FBBC19-7B1B-4EE6-9915-86C7EAF11048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4011BCA-1C95-4041-A26A-4CF68408781B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4011BCA-1C95-4041-A26A-4CF68408781B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4011BCA-1C95-4041-A26A-4CF68408781B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4011BCA-1C95-4041-A26A-4CF68408781B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4635FC2B-34F3-4497-B0AF-67486BC4AA36}
+	EndGlobalSection
+EndGlobal
