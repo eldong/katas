@@ -92,7 +92,10 @@ namespace BowlingGames.Tests
             // Arrange 
             BowlingGame g = new BowlingGame();
 
+            // Act
             rollMany(g, 12, 10);
+
+            // Assert
             Assert.AreEqual(300, g.Score());
         }
 
@@ -102,6 +105,7 @@ namespace BowlingGames.Tests
             // Arrange 
             BowlingGame g = new BowlingGame();
 
+            // Act
             g.Roll(new int[] { 1, 3, 7, 3, 10, 1, 7, 5, 2, 5, 3, 8, 2, 8, 2, 10, 9, 0 });
             Assert.AreEqual(131, g.Score());
         }
@@ -122,7 +126,10 @@ namespace BowlingGames.Tests
             // Arrange 
             BowlingGame g = new BowlingGame();
 
+            // Act
             g.Roll(new int[] { 1, 3, 7, 3, 10, 1, 7, 5, 2, 5, 3, 8, 2, 8, 2, 10, 10, 10, 10 });
+
+            // Assert
             Assert.AreEqual(163, g.Score());
         }
 
